@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+reviews:
+  auto_review:
+    ignore_title_keywords:
+      # release PRs opened from `release/v*` branches
+      - "chore(release):"
+    ignore_usernames:
+      - "renovate[bot]"
