@@ -6,3 +6,6 @@ reviews:
       - "chore(release):"
     ignore_usernames:
       - "renovate[bot]"
+  pre_merge_checks:
+    docstrings:
+      mode: "off"
